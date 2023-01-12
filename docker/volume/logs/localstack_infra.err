@@ -1,0 +1,31 @@
+2023-01-12T00:57:39.174  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-01-12T00:57:39.174  WARN --- [-functhread3] hypercorn.error            : ASGI Framework Lifespan error, continuing without Lifespan support
+2023-01-12T00:57:39.180  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-01-12T00:57:39.180  INFO --- [-functhread3] hypercorn.error            : Running on https://0.0.0.0:4566 (CTRL + C to quit)
+2023-01-12T00:57:39.412  INFO --- [  MainThread] localstack.utils.bootstrap : Execution of "start_runtime_components" took 607.56ms
+2023-01-12T00:58:35.010  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "_load_service_plugin" took 1045.72ms
+2023-01-12T00:58:35.431  INFO --- [functhread15] l.services.dynamodb.server : Initializing DynamoDB Local with the following configuration:
+2023-01-12T00:58:35.432  INFO --- [functhread15] l.services.dynamodb.server : Port:	53589
+2023-01-12T00:58:35.432  INFO --- [functhread15] l.services.dynamodb.server : InMemory:	false
+2023-01-12T00:58:35.432  INFO --- [functhread15] l.services.dynamodb.server : DbPath:	/var/lib/localstack/tmp/state/dynamodb
+2023-01-12T00:58:35.432  INFO --- [functhread15] l.services.dynamodb.server : SharedDb:	false
+2023-01-12T00:58:35.432  INFO --- [functhread15] l.services.dynamodb.server : shouldDelayTransientStatuses:	false
+2023-01-12T00:58:35.432  INFO --- [functhread15] l.services.dynamodb.server : CorsParams:	null
+2023-01-12T00:58:35.449  INFO --- [functhread15] l.services.dynamodb.server : 
+2023-01-12T00:58:37.744  INFO --- [   asgi_gw_0] localstack.utils.bootstrap : Execution of "require" took 3780.20ms
+2023-01-12T00:58:38.177  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.CreateTable => 200
+2023-01-12T00:58:38.359  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.DescribeTable => 200
+2023-01-12T00:58:38.437  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeTable => 200
+2023-01-12T00:58:38.531  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.DescribeContinuousBackups => 400 (UnknownOperationException)
+2023-01-12T00:58:38.635  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeTimeToLive => 200
+2023-01-12T00:58:38.708  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.ListTagsOfResource => 200
+2023-01-12T00:59:25.099  INFO --- [   asgi_gw_1] localstack.utils.bootstrap : Execution of "_load_service_plugin" took 625.08ms
+2023-01-12T00:59:25.104  INFO --- [   asgi_gw_1] localstack.services.infra  : Starting mock Lambda service on http port 4566 ...
+2023-01-12T00:59:25.803  INFO --- [   asgi_gw_1] localstack.utils.bootstrap : Execution of "require" took 1329.60ms
+2023-01-12T00:59:26.052  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.PutItem => 200
+2023-01-12T01:03:35.215  INFO --- [   asgi_gw_2] localstack.request.aws     : AWS dynamodb.DescribeTable => 200
+2023-01-12T01:03:35.260  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DescribeContinuousBackups => 400 (UnknownOperationException)
+2023-01-12T01:03:35.362  INFO --- [   asgi_gw_2] localstack.request.aws     : AWS dynamodb.DescribeTimeToLive => 200
+2023-01-12T01:03:35.436  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.ListTagsOfResource => 200
+2023-01-12T01:03:49.312  INFO --- [   asgi_gw_0] localstack.request.aws     : AWS dynamodb.DeleteTable => 200
+2023-01-12T01:03:49.386  INFO --- [   asgi_gw_1] localstack.request.aws     : AWS dynamodb.DescribeTable => 400 (ResourceNotFoundException)
