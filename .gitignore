@@ -5,6 +5,10 @@
 *.so
 *.dylib
 
+# Docker temp files
+docker.sock/
+volume/
+
 # Test binary, built with `go test -c`
 *.test
 
